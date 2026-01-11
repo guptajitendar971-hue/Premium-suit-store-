@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Suit Collection</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f7f7f7; color: #222; }
+    header { background: #111; color: #fff; padding: 24px 16px; text-align: center; }
+    header h1 { margin: 0 0 8px 0; font-size: 28px; }
+    header p { margin: 0; font-size: 14px; opacity: 0.9; }.container { max-width: 1080px; margin: 24px auto 48px auto; padding: 0 16px; }
+
+.hero { background: #fff; border-radius: 16px; padding: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.06); text-align: center; }
+.hero h2 { margin-top: 0; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin-top: 24px; }
+.card { background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
+.card img { width: 100%; display: block; }
+.card .content { padding: 16px; }
+.card h3 { margin: 0 0 8px 0; font-size: 18px; }
+.price { font-weight: bold; margin-bottom: 8px; }
+.btn { display: inline-block; padding: 10px 14px; border-radius: 999px; text-decoration: none; border: 1px solid #111; }
+.btn:hover { opacity: 0.85; }
+
+footer { text-align: center; padding: 24px 16px; color: #666; font-size: 13px; }
+
+@media (max-width: 600px) {
+  header h1 { font-size: 22px; }
+}
+
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1>Premium Suit Collection</h1>
+   <p>Elegant. Tailored. Made for you.</p>
+  </header>
+  <div class="container">
+   <section class="hero">
+    <h2>Featured Suits</h2>
+    <p>Explore our handpicked suits for every occasion.</p>
+   </section>
+   <!-- PRODUCT GRID: Replace image src with your own suit photos -->
+   <div class="grid">
+    <div class="card">
+     <img src="image1.jpg" alt="Classic Black Suit">
+     <div class="content">
+      <h3>Classic Black Suit</h3>
+      <div class="price">₹4,999</div>
+      <p>Modern slim fit, premium fabric, perfect for formal occasions.</p>
+      <a class="btn" href="#contact">Order Now</a>
+     </div>
+    </div>
+    <div class="card">
+     <img src="image2.jpg" alt="Navy Blue Suit">
+     <div class="content">
+      <h3>Navy Blue Suit</h3>
+      <div class="price">₹5,499</div>
+      <p>Versatile style with refined detailing and soft lining.</p>
+      <a class="btn" href="#contact">Order Now</a>
+     </div>
+    </div>
+    <div class="card">
+     <img src="image3.jpg" alt="Grey Three‑Piece Suit">
+     <div class="content">
+      <h3>Grey Three‑Piece Suit</h3>
+      <div class="price">₹6,299</div>
+      <p>Three‑piece premium suit with waistcoat for a distinguished look.</p>
+      <a class="btn" href="#contact">Order Now</a>
+     </div>
+    </div>
+   </div>
+   <section id="contact" class="hero" style="margin-top:32px;">
+    <h2>Contact &amp; Orders</h2>
+    <p>Send us your requirements on WhatsApp or Call.</p>
+    <p><strong>Phone:</strong> +91-XXXXXXXXXX
+     <br>
+     <strong>WhatsApp:</strong> +91-XXXXXXXXXX
+     <br>
+     <strong>Email:</strong> your@email.com</p>
+   </section>
+  </div>
+  <footer>© 2026 Premium Suit Collection. All rights reserved.</footer>
+ </body>
+</html>
